@@ -112,6 +112,7 @@ const mapDispatchToProps = dispatch => bindActionCreators({
   addTodo,removeTodo
 }, dispatch)
 
+
 const ConnectedApp = connect(mapStateToProps, mapDispatchToProps)(App)
 
 export default ConnectedApp;

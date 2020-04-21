@@ -17,7 +17,7 @@ class Quotes extends React.Component {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "theysaidso.p.rapidapi.com",
-		"x-rapidapi-key": "5aca687f86msha1fdb7e0bd0b283p169ecajsn7e3b2e88c0f0"
+		"x-rapidapi-key": process.env.REACT_APP_GOOGLE_API_KEY
 	}
 }).then(function(response) {
       if(response.ok) {
