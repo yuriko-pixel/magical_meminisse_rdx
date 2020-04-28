@@ -1,3 +1,16 @@
+Todo App styled like *Harry Potter* 
+
+Demo is [here](magical-todoapp.netlify.app)
+
+The reason why it shows you two separate box is because one of them works like *Tom Riddle's Diary* which in here instead shows you today's quote.
+
+You can add your todo here and delete it when the task is done.
+
+Please note that todos will be gone when you refresh the server. (It's not connected to DB yet.)
+
+Below is how to make the clone and have this app in your local environment.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
