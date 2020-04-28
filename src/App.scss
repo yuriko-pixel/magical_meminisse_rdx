@@ -1,3 +1,5 @@
+$paperurl: url("./img/paper-1074131_640.jpg");
+
 @font-face {
   font-family: "Harry Potter";
   src: url("./HARRP___.TTF") format("truetype"); 
@@ -16,12 +18,12 @@ p {
   margin-top: 20px;
   text-align: center;
   margin-bottom: 10px;
-  background-image: url("./img/paper-1074131_640.jpg");
+  background-image: $paperurl;
   width: 450px;
 }
 
 .container {
-  background-image: url("./img/paper-1074131_640.jpg");
+  background-image: $paperurl;
   text-align: center;
   width: 500px;
   height: 500px;

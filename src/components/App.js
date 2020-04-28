@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../App.scss';
 import waxseal from '../img/waxseal.png'
 import quill from '../img/quill.png'
 import {connect} from 'react-redux'
