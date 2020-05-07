@@ -1,6 +1,6 @@
 Todo App styled like *Harry Potter* 
 
-Demo is [here](magical-todoapp.netlify.app)
+Demo is [here](https://magical-todoapp.netlify.app)
 
 The reason why it shows you two separate box is because one of them works like *Tom Riddle's Diary* which in here instead shows you today's quote.
 
