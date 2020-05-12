@@ -9,7 +9,7 @@ const addtodoReducer = (state = [], action)=> {
         const newData = [...state, action.payload];
         return newData;
     case 'REMOVE_TODO': 
-        const removedDate = state.filter(el => el == action.payload.id);
+        const removedDate = state.filter(el => el.id != action.payload.id);
         return removedDate;
       default:
         return state
